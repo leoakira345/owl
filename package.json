@@ -1,0 +1,25 @@
+{
+  "name": "chiit-chatt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "4.0",
+    "mongoose": "^8.17.0",
+    "multer": "^2.0.2",
+    "multer-s3": "^3.0.1",
+    "socket.io": "^4.8.1"
+  }
+}
